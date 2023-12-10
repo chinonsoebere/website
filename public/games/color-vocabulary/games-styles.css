@@ -1,0 +1,107 @@
+
+img{
+    height: 200px;
+    width: 200px
+}
+
+h2[class=color-title] {
+font-weight: normal;
+}
+
+h2[id=red]{
+ color: red;
+}
+h2[id=blue]{
+ color: blue;
+}
+h2[id=orange]{
+  color: orange;
+}
+h2[id=green]{
+color: green;
+}
+h2[id=yellow]{
+color: yellow;
+}
+
+.image-text-container{
+    position:relative;
+    height: 200px;
+    width: 200px
+  }
+.image-text-container #red-text.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: red;
+  }
+
+
+  .image-text-container #blue-text.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: blue;
+  }
+
+
+  .image-text-container #orange-text.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: orange;
+  }
+
+
+
+  .image-text-container #green-text.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: green;
+  }
+
+
+
+  .image-text-container #yellow-text.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(176, 176, 16);
+  }
+
+  
+  #red-text.overlay:hover, #blue-text.overlay:hover, #orange-text.overlay:hover,#green-text.overlay:hover, #yellow-text.overlay:hover {
+    opacity: 1;
+  }
+
+  
+  .text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }

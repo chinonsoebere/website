@@ -4,15 +4,19 @@
     <!--Place information thatthe user does not see here. Only for helping render teh website -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"/>
     <title>My Website</title>
   </head>
   <body>
     <!--Website Content goes in gere-->
-    <h1>Welcome to My Website!</h1>
+    <h1 id="main-heading">Welcome to My Website!</h1>
     <hr />
-    <a href="./public/about.html">About Me</a>
-    <a href="./public/contact.html">Contact Me</a>
-    <h2>Profile Summary</h2>
+    <a class="navigation" href="#">Home</a>
+    <a class = "navigation" href="./public/about.html">About Me</a>
+    <a class = "navigation" href="./public/contact.html">Contact Me</a>
+    <a class = "navigation" href="./public/games.html">Games</a>
+
+    <h2 draggable="true"> Profile Summary</h2>
     <p1></p1>
     <h2>Work Experience</h2>
     <ol>
@@ -40,7 +44,7 @@
   </body>
   <footer>
     <hr />
-    <small>
+    <small class="copyright">
       Copyright ©
       <span>
         <script id="current-year">

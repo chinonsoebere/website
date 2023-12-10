@@ -1,0 +1,24 @@
+/*Element selector*/
+*{
+    
+}
+
+/*Element selector*/
+body {
+    position: center;
+}
+
+/*class selector*/
+.copyright {
+    color: gray
+}
+
+/*ID selector*/
+#main-heading{
+    color:brown;
+}
+
+/*Attribute Selector*/
+h2[draggable="true"]{
+color: blue;
+}
