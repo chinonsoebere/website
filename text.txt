@@ -1,1 +1,0 @@
-This is a text file that should be ignored. I don't know why its getting to GitHub
